@@ -1,0 +1,177 @@
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1" name="viewport"/>
+  <title>
+   Designing Your Dream
+  </title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&amp;display=swap" rel="stylesheet"/>
+  <style>
+   * {
+    box-sizing: border-box;
+  }
+  body {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    background-color: #f9f0d9;
+    color: #1a1a1a;
+  }
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 40px 20px;
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+    align-items: center;
+    min-height: 100vh;
+  }
+  .left {
+    flex: 1 1 320px;
+    min-width: 280px;
+  }
+  .left h2 {
+    font-weight: 600;
+    font-size: 1.25rem;
+    line-height: 1.3;
+    margin: 0 0 40px 0;
+  }
+  .steps {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+  }
+  .step {
+    display: flex;
+    gap: 16px;
+  }
+  .icon-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 32px;
+    position: relative;
+  }
+  .icon-circle {
+    background-color: #1a1a1a;
+    color: #f9f0d9;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    font-weight: 600;
+    z-index: 2;
+  }
+  .line {
+    flex-grow: 1;
+    width: 2px;
+    background-color: #1a1a1a;
+    margin-top: 4px;
+    margin-bottom: -4px;
+  }
+  .step-content {
+    flex: 1;
+  }
+  .step-content strong {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 6px;
+  }
+  .step-content p {
+    margin: 0;
+    font-weight: 400;
+    font-size: 0.875rem;
+    line-height: 1.4;
+    color: #1a1a1a;
+  }
+  .right {
+    flex: 1 1 320px;
+    min-width: 280px;
+  }
+  .right img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 4px;
+    object-fit: cover;
+  }
+  @media (max-width: 720px) {
+    .container {
+      flex-direction: column;
+      padding: 30px 16px;
+    }
+    .left, .right {
+      min-width: 100%;
+    }
+    .left {
+      margin-bottom: 32px;
+    }
+  }
+  </style>
+ </head>
+ <body>
+  <div class="container">
+   <div class="left" role="main">
+    <h2>
+     Designing Your Dream in Three Simple Steps
+    </h2>
+    <div aria-label="Steps to design your dream" class="steps">
+     <div class="step">
+      <div aria-hidden="true" class="icon-column">
+       <div class="icon-circle">
+        1
+       </div>
+       <div class="line">
+       </div>
+      </div>
+      <div class="step-content">
+       <strong>
+        Start Project
+       </strong>
+       <p>
+        Embark on your design adventure by initiating your project. Share your vision and set the stage for a bespoke design experience
+       </p>
+      </div>
+     </div>
+     <div class="step">
+      <div aria-hidden="true" class="icon-column">
+       <div class="icon-circle">
+        2
+       </div>
+       <div class="line">
+       </div>
+      </div>
+      <div class="step-content">
+       <strong>
+        Craft
+       </strong>
+       <p>
+        Collaborate closely to achieve design excellence refining your vision and crafting brilliance into every aspect of your space
+       </p>
+      </div>
+     </div>
+     <div class="step">
+      <div aria-hidden="true" class="icon-column">
+       <div class="icon-circle">
+        3
+       </div>
+      </div>
+      <div class="step-content">
+       <strong>
+        Execute
+       </strong>
+       <p>
+        Witness your vision becoming a reality as we execute the design plan with precision. Celebrate the joy of your newly transformed space
+       </p>
+      </div>
+     </div>
+    </div>
+   </div>
+   <div class="right">
+    <img alt="Modern living room with a large window, gray sofa, coffee table with plants, wooden wall paneling, and ceiling spotlights" height="400" src="https://storage.googleapis.com/a1aa/image/fac9eeda-8fc9-4576-6642-d85f55841fee.jpg" width="600"/>
+   </div>
+  </div>
+ </body>
+</html>

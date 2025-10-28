@@ -1,0 +1,152 @@
+@media (max-width: 1020px) {
+
+    .container-1 {
+        flex-direction: column;
+    }
+
+    .container-1 .left p {
+        max-width: 80vw;
+        margin-left: 30px;
+    }
+
+    .container-1 .btn-start {
+        margin-left: 52px;
+    }
+
+    .container-1 .right {
+        flex-direction: row;
+        flex: 0;
+        justify-content: space-around;
+        align-items: center;
+        margin-top: 35px;
+    }
+
+    .container-1 .top-right-img {
+        align-self: auto;
+    }
+
+    .ri-arrow-down-line {
+        right: 0;
+    }
+
+}
+
+@media (max-width: 768px) {
+    .nav-btn {
+        display: block;
+    }
+
+    .container-2 .services {
+        flex-direction: column;
+    }
+
+    .ri-menu-line {
+        display: block;
+    }
+
+    header.active .ri-menu-line {
+        display: none;
+    }
+
+    header.active .ri-close-line {
+        display: block;
+    }
+
+    header nav {
+        position: absolute;
+        right: 0;
+        top: 100%;
+        display: flex;
+        flex-direction: column;
+        width: 50vw;
+        height: 70vh;
+        z-index: 2;
+        justify-content: center;
+        align-items: center;
+        transform: translateX(100%);
+        transition: transform 0.5s;
+    }
+
+    header.active nav {
+        transform: translateX(0%);
+    }
+
+    .container-1 .left h1 {
+        transform: none !important;
+    }
+
+    .container-3 .content {
+        max-width: none;
+    }
+
+    .container-4 .right img {
+        width: 95%;
+        margin: auto;
+    }
+
+    .footer-main {
+        flex-direction: column;
+    }
+
+    .footer-logo-text {
+        width: 150%;
+        max-width: 95vw;
+        margin: 25px 0;
+    }
+
+    html {
+        width: 100vw;
+
+    }
+
+    .container-1 .left h1 {
+        font-weight: 700;
+        font-size: 8vw;
+        margin: 0 0 15px 0;
+        line-height: 1.1;
+        text-align: center;
+        letter-spacing: 5px;
+        word-spacing: 10px;
+        margin: 40px 0px;
+    }
+
+    .container-1 .right {
+        flex-direction: column;
+        flex: 0;
+        justify-content: space-around;
+        align-items: center;
+        margin-top: 35px;
+    }
+
+    .container-1 .top-right-img {
+        width: 100%;
+        max-width: 70%;
+    }
+
+    .container-1 .bottom-right {
+        width: 100%;
+        justify-content: center;
+        position: relative;
+    }
+
+    .container-1 .bottom-right img.main-sofa {
+        width: 100%;
+        max-width: 70%;
+    }
+
+    .ri-arrow-down-line {
+        background-color: #000;
+        font-size: 5vw;
+        color: #fff;
+        position: absolute;
+        right: 60px;
+        bottom: 0;
+    }
+
+    .container-4 .step-content p {
+        margin-right: 1px;
+
+    }
+
+
+}
